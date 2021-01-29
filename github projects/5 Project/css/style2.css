@@ -1,0 +1,28 @@
+#main-header .fab {
+    color: #fff;
+}
+
+.my-black {
+    background-color: black;
+    color: #fff;
+}
+
+#main-header .port-item {
+    width: 25%;
+
+}
+
+#main-header .port-item:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#main-footer .fab {
+    color: #fff;
+}
+
+@media(min-width:1199px) {
+    .port-item {
+        padding: 3rem !important;
+    }
+}
